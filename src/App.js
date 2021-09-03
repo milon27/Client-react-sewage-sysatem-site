@@ -2,7 +2,10 @@ import Router from "./components/routers/Router";
 import MainContext from "./utils/context/MainContext";
 import axios from 'axios'
 
-import './index.css';
+import './desktop.css';
+import './mobile.css';
+
+
 import Define from './utils/helpers/Define';
 
 //setup axios

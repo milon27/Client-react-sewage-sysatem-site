@@ -1,0 +1,6 @@
+@media (max-width:700px) {
+  .nav-active{
+    color: #006CB5!important;
+    display: block;
+  }
+}
