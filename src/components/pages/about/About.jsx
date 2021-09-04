@@ -26,10 +26,11 @@ export default function About() {
                 </div>
             </SectionTop>
 
-            <Section>
-
-                <Link to={URL.HOME}><h1 className="text-center">Go Home</h1></Link>
+            <Section classNames={["d-flex", "align-items-center", "min-vh-100"]}>
+                <h1 className="text-center">About Page</h1>
+                <Link to={URL.HOME}><h3 className="text-center text-primary">Go Home</h3></Link>
             </Section>
         </Body>
     )
+
 }
