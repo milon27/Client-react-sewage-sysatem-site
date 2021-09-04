@@ -7,7 +7,7 @@ export default function HomeHero() {
     return (
         <>
 
-            <div className="home" style={{ background: `url("../images/bg-home.jpg")` }}>
+            <div className="home" >
                 <div className="home__inner">
                     <div className="container-fluid container-fluid--padding">
                         <div className="row">
