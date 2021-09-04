@@ -10,7 +10,7 @@ export default function HomeAbout() {
 
                             <h2 className="heading-text__heading heading">Introduction.</h2>
                             <p>The Ultra dB low-noise indoor sewage system is a complete system of pipes and fittings made of mineral-enhanced polypropylene, compliant with the requirements specified in the National Technical Assessment ITB-KOT-2017/0167. Each pipe has a double-layered structure consisting of the internal (white) wall and the external (blue) wall which is smooth, resistant to dirt and permanently overprinted with a centimetre scale. Inspection is easy, as the internal surface is smooth and white. The pipes are manufactured in the co-extrusion process, which allows for the creation of a molecularly bound solid layer. The fittings are manufactured by injection moulding. Thanks to the use of polypropylene and the special wall structure design, this system meets all the requirements imposed on modern sewage systems, namely: safety, resistance to damage and long-lasting durability!</p>
-                            <img src="/images/about.png" alt="" className="mb-3" />
+                            <img src="/images/about.png" alt="" className="m-auto mb-3" />
                             <p>
                                 Very good material properties: high resistance to impact, chemical compounds and hot
                                 temperature as well as excellent tightness, small weight and easy installation make mineral-

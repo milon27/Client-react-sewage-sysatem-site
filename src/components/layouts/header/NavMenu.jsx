@@ -27,26 +27,24 @@ export default function NavMenu() {
                             <span />
                         </button>
 
-
-
                         <div className="main-menu">
                             <ul className="nav menu main-menu__list mod-list">
 
                                 <li >
-                                    <NavLink to={URL.HOME} activeClassName="nav-active">
+                                    <NavLink exact to={URL.HOME} activeClassName="nav-active">
                                         Home
                                     </NavLink>
 
                                 </li>
 
                                 <li >
-                                    <NavLink to={URL.ABOUT} activeClassName="nav-active">
+                                    <NavLink exact to={URL.ABOUT} activeClassName="nav-active">
                                         About Company
                                     </NavLink>
                                 </li>
 
                                 <li className="deeper parent">
-                                    <NavLink to={URL.ABOUT} className="sub-sub-menu" activeClassName="nav-active ">
+                                    <NavLink exact to={URL.ABOUT} className="sub-sub-menu" activeClassName="nav-active ">
                                         System And Design
                                     </NavLink>
                                     <ul class="nav-child unstyled small">
@@ -66,18 +64,18 @@ export default function NavMenu() {
 
 
                                 <li >
-                                    <NavLink to={URL.ABOUT} activeClassName="nav-active">
+                                    <NavLink exact to={URL.ABOUT} activeClassName="nav-active">
                                         Products
                                     </NavLink>
                                 </li>
 
                                 <li >
-                                    <NavLink to={URL.ABOUT} activeClassName="nav-active">
+                                    <NavLink exact to={URL.ABOUT} activeClassName="nav-active">
                                         News
                                     </NavLink>
                                 </li>
                                 <li className="deeper parent">
-                                    <NavLink to={URL.ABOUT} activeClassName="nav-active">
+                                    <NavLink exact to={URL.ABOUT} activeClassName="nav-active">
                                         Certification
                                     </NavLink>
                                     <ul class="nav-child unstyled small">
