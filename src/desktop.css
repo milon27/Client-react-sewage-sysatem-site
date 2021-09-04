@@ -3,4 +3,7 @@
     color: white!important;
     display: block;
   }
+  .my-img{
+    width: 70%;
+  }
 }

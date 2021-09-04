@@ -2,12 +2,18 @@ import React from 'react'
 import Body from './../../layouts/body/Body';
 import HomeHero from './../../layouts/home/HomeHero';
 import HomeAbout from './../../layouts/home/HomeAbout';
-import HomeOffer from './../../layouts/home/HomeOffer';
+import HomeTechProperty from './../../layouts/home/HomeTechProperty';
+import HomeBenefit from '../../layouts/home/HomeBenefit';
+import HomeApplication from '../../layouts/home/HomeApplication';
+import HomeDataSheet from './../../layouts/home/HomeDataSheet';
+import HomeCallToAction from '../../layouts/home/HomeCallToAction';
+
 
 
 export default function Home() {
     return (
         <Body title="Home ">
+
             <section className="top">
                 <div className="container-fluid">
                     <div className="row">
@@ -20,8 +26,16 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* top end */}
-            {/* <HomeOffer /> */}
+
+            <HomeBenefit />
+
+            <HomeTechProperty />
+
+            <HomeApplication />
+
+            <HomeDataSheet />
+
+            <HomeCallToAction />
 
         </Body>
     )

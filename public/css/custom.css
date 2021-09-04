@@ -5,3 +5,13 @@ div.mod_search124 input[type="search"] {
 div.mod_search112 input[type="search"] {
     width: auto;
 }
+
+.bg-img{
+    /* background-image: url('images/bg2.jpg') */
+    color: white;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}

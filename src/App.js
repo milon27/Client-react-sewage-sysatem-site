@@ -4,6 +4,7 @@ import axios from 'axios'
 
 import './desktop.css';
 import './mobile.css';
+import './common.css';
 
 
 import Define from './utils/helpers/Define';

@@ -3,4 +3,12 @@
     color: #006CB5!important;
     display: block;
   }
+
+  ul{
+    padding: 15px;
+  }
+
+  .my-img{
+    width: 100%;
+  }
 }
