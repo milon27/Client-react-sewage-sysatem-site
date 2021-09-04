@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
-import { NavLink } from 'react-router-dom'
-import URL from './../../../utils/helpers/URL';
+import MenuItems from './../header/MenuItems';
 /**
  * mobile nav
  */
@@ -23,41 +22,7 @@ export default function Sidebar() {
 
                 <div className="mobile-nav">
                     <ul className="nav menu mod-list">
-                        <li >
-                            <NavLink to={URL.HOME} activeClassName="nav-active">
-                                Home
-                            </NavLink>
-
-                        </li>
-
-                        <li >
-                            <NavLink to={URL.ABOUT} activeClassName="nav-active">
-                                About Company
-                            </NavLink>
-                        </li>
-
-                        <li >
-                            <NavLink to={URL.ABOUT} activeClassName="nav-active">
-                                System And Design
-                            </NavLink>
-                        </li>
-
-                        <li >
-                            <NavLink to={URL.ABOUT} activeClassName="nav-active">
-                                Products
-                            </NavLink>
-                        </li>
-
-                        <li >
-                            <NavLink to={URL.ABOUT} activeClassName="nav-active">
-                                News
-                            </NavLink>
-                        </li>
-                        <li >
-                            <NavLink to={URL.ABOUT} activeClassName="nav-active">
-                                Certification
-                            </NavLink>
-                        </li>
+                        <MenuItems />
                     </ul>
                     <div className="search mod_search124">
                         <div className="form-inline mt-3">
